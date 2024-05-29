@@ -44,7 +44,6 @@ export default Sidebar;
 
 export const SidebarItem = ({ icon, text, active, alert }) => {
   const { expanded } = useContext(SidebarContext)
-  console.log(active)
   return (
     <li
       className={`relative group flex items-center h-[52px] py-3 px-4 my-1 font-medium rounded-md cursor-pointer ${

@@ -9,10 +9,10 @@ const Home = () => {
 
   return (
     <div className="px-5 pt-8 pb-10">
-     <Banner/>
-    <CategoryMenu/>
-    <FoodItems />
-    <Cart/>
+      <Banner/>
+      <CategoryMenu/>
+      <FoodItems />
+      <Cart/>
   </div>
   );
 };
